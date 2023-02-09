@@ -47,11 +47,34 @@ table {
 	border-spacing: 0;
 }
 
+
+/*** ENDING THE DEFAULT PAGE RESET ***/
+
+body {
+	font-family: 'Orbitron', sans-serif;
+}
+
+
+#container {
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+}
+
+.item {
+	padding:20px;
+	border:1px solid rgb(21, 0, 255);
+	margin:20px;
+	display:flex;
+}
+
+
 .trinket-image {
-    width:500px;
+    width:60%;
+	padding-right:20px;
 }
 
 h3 {
+	
     font-size:30px;
 }
 
@@ -63,6 +86,8 @@ h4 {
     background:red;
     color:white;
 }
+
+
 
 /*
 
