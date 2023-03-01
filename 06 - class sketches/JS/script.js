@@ -30,3 +30,10 @@ $(".tab4").click(function(){
 //     folderClass = ".folder" + $(this).attr("class").replace("tab tab","");    
 //     $(folderClass).css({"z-index":1})
 // })
+
+
+//THIS IS FOR ANOSHA
+
+$('.open-close').click(function(){
+    $("#side-menu").toggleClass("active");
+})
