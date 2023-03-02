@@ -150,3 +150,11 @@ header {
 .tab3, .folder3  { background:hsl(0, 100%, 15%); }
 .tab4, .folder4  { background:hsl(0, 100%, 0%); }
 
+
+/*** for DELUSHA ***/
+.year-container {
+    display:grid;
+    grid-template-columns:repeat(10, 1fr);
+    width:200vw;
+}
+    
