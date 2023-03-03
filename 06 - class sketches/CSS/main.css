@@ -188,3 +188,15 @@ header {
     }
     .footer-title-left {grid-column: span 3;}
     .footer-title-right {grid-column: span 4;}
+
+
+    #items {
+        display:grid;
+        max-width:1000px;
+        margin:auto;
+        grid-template-columns:50% 30% 20%;
+    }
+
+    #items div {
+        border:1px solid blue;
+    }
