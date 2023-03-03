@@ -79,6 +79,8 @@ header {
     position:relative;
     width:100vw;
     color:white;
+    height:300px;
+    overflow:hidden;
     
     
 }
@@ -158,3 +160,31 @@ header {
     width:200vw;
 }
     
+
+
+#sterling-footer {
+    max-width:1000px;
+    margin:3em auto;
+    background:red;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    text-align:center;
+    color:white;
+}
+
+    .footer-left {
+        display:grid;
+        grid-template-columns:repeat(3, 1fr)
+    }
+
+
+    .footer-right {
+        display:grid;
+        grid-template-columns:repeat(4, 1fr)
+    }
+
+    .footer-bottom {
+        grid-column:span 2
+    }
+    .footer-title-left {grid-column: span 3;}
+    .footer-title-right {grid-column: span 4;}
