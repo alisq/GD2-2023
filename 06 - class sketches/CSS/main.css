@@ -200,3 +200,21 @@ header {
     #items div {
         border:1px solid blue;
     }
+
+
+
+    #adarsh {
+        display:grid;
+        grid-template-columns:repeat(4, 25%);
+    }
+    .locale {
+        min-height:100px;
+        border:1px solid blue;
+        background:rgba(0,0,255,0.5);
+        
+    }
+
+    .locale img {
+        width:100%;
+
+    }
