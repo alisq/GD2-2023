@@ -253,3 +253,19 @@ header {
         bottom:20px;
         left:320px;
     }
+
+
+    #sadie {
+        margin:50px auto;
+
+        border:1px solid #000;
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        max-width:1200px;
+        
+    }
+
+    .grid-left,
+    .grid-right {
+        text-align:center;
+    }
