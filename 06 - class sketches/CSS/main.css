@@ -218,3 +218,38 @@ header {
         width:100%;
 
     }
+
+
+    #sammi {
+        width:450px;
+        height:450px;
+        position:relative;
+        border:1px solid #000;
+    }
+
+    .sammi-block {
+        width:150px;
+        height:150px;
+        border-radius:30px;
+        background:blue;
+        position:absolute;
+
+    }
+
+
+    .sb1 {
+        background:red;
+        bottom:0; left:0;
+    }
+
+    .sb2 {
+        background:green;
+        bottom:0;
+        left:150px;
+    }
+
+    .sb3 {
+        background:orange;
+        bottom:20px;
+        left:320px;
+    }
